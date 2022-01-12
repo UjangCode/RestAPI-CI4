@@ -1,0 +1,115 @@
+CRITICAL - 2021-12-07 09:03:05 --> Unclosed '{' on line 8
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:03:27 --> Unclosed '{' on line 8
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:04:03 --> Unclosed '{' on line 8
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:08:14 --> Cannot use object of type CodeIgniter\HTTP\ContentSecurityPolicy as array
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(214): include()
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(23): view('home', Array)
+#4 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#9 {main}
+CRITICAL - 2021-12-07 09:11:01 --> Cannot use object of type CodeIgniter\HTTP\ContentSecurityPolicy as array
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(214): include()
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(23): view('home', Array)
+#4 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#9 {main}
+CRITICAL - 2021-12-07 09:12:18 --> Cannot use object of type CodeIgniter\HTTP\ContentSecurityPolicy as array
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(214): include()
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(23): view('home', Array)
+#4 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#9 {main}
+CRITICAL - 2021-12-07 09:16:23 --> Cannot use object of type CodeIgniter\HTTP\ContentSecurityPolicy as array
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(214): include()
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(23): view('home', Array)
+#4 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#9 {main}
+CRITICAL - 2021-12-07 09:17:27 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#5 {main}
+CRITICAL - 2021-12-07 09:25:41 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+#0 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(20): json_decode(Object(CodeIgniter\HTTP\Response), true)
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:26:10 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+#0 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(20): json_decode(Object(CodeIgniter\HTTP\Response))
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:40:53 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+#0 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(20): json_decode(Object(CodeIgniter\HTTP\Response), true)
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:40:55 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+#0 C:\Users\aji\Desktop\platihan\simdesem\app\Controllers\Home.php(20): json_decode(Object(CodeIgniter\HTTP\Response), true)
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
+CRITICAL - 2021-12-07 09:41:40 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\Users\aji\Desktop\platihan\simdesem\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\aji\Desktop\platihan\simdesem\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\aji\Desktop\platihan\simdesem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\aji\Desktop\platihan\simdesem\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\aji\\De...')
+#6 {main}
